@@ -1,0 +1,20 @@
+name: provider_dark_mode_switch
+description: Provider Dark Mode Switch.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.0.4
+  shared_preferences: ^0.5.6+3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
